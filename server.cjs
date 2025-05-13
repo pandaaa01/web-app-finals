@@ -25,7 +25,7 @@ app.post('/api/saveUserData', (req, res) => {
   });
 });
 
-// **NEW**: list endpoint for testing
+// *s*NEW**: list endpoint for testing
 app.get('/api/getUsers', (req, res) => {
   const files = fs.readdirSync(usersDir).filter(f => f.endsWith('.json'));
   const users = files.map(f => {

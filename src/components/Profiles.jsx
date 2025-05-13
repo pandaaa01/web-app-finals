@@ -80,7 +80,7 @@ export default function Profiles() {
               {selectedUser.userName || "Guest"}
             </h3>
 
-            {/* Photo */}
+            {/* sPhoto */}
             {selectedUser.photo && (
               <img
                 src={

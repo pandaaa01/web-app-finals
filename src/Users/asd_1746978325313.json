@@ -1,0 +1,40 @@
+{
+  "userName": "asd",
+  "measurements": [
+    {
+      "label": "Chest",
+      "value": "86 cm"
+    },
+    {
+      "label": "Waist",
+      "value": "72 cm"
+    },
+    {
+      "label": "Hip",
+      "value": "90 cm"
+    },
+    {
+      "label": "Shoulder Width",
+      "value": "42 cm"
+    },
+    {
+      "label": "Thigh",
+      "value": "55 cm"
+    }
+  ],
+  "recommendations": [
+    {
+      "region": "Asia",
+      "label": "XL"
+    },
+    {
+      "region": "US",
+      "label": "XXL"
+    },
+    {
+      "region": "EU",
+      "label": "L"
+    }
+  ],
+  "photo": "11.png"
+}

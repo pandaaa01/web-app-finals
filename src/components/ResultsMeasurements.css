@@ -98,6 +98,25 @@
     height: auto;
   }
       
+/* Optional name-input wrapper spacing */
+.rm-name-input-wrapper {
+  margin: 0 0 1rem;
+}
+
+/* New: style for the name input */
+.rm-name-input {
+  width: 100%;
+  padding: 0.6em 0.8em;
+  border: 2px solid var(--rm-border);
+  border-radius: 0.6rem;
+  font-size: 1rem;
+  color: var(--rm-text);
+  background: #fff;
+}
+
+.rm-name-input::placeholder {
+  color: #aaa;
+}
 
 
   @keyframes rm-popIn {
